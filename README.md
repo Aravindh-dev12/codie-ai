@@ -1,6 +1,6 @@
-# Webly.io 🚀 - AI-Powered Web Development Platform
+# Codie AI - AI-Powered Web Development Platform
 
-Webly.io is a **revolutionary full-stack web application** that combines **artificial intelligence** with a modern tech stack - powered by **Convex** on the backend and **Next.js** on the frontend. It transforms the development workflow by generating production-ready code from natural language descriptions.
+Codie AI is a **revolutionary full-stack web application** that combines **artificial intelligence** with a modern tech stack - powered by **Convex** on the backend and **Next.js** on the frontend. It transforms the development workflow by generating production-ready code from natural language descriptions.
 
 ## 🌟 Key Features
 
@@ -20,7 +20,7 @@ Follow these steps to set up and run Webly.io locally:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/melo-maniac-29/webly.io.git
+git clone https://github.com/Aravindh-dev12/codie-ai.git
 cd webly.io
 ```
 
@@ -52,7 +52,7 @@ npm install
    NEXT_PUBLIC_CONVEX_URL=your_convex_url
 
    # API Keys
-   NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+   NEXT_PUBLIC_GPT_API_KEY=your_openai_api_key
 
    # Payment processor
    NEXT_PUBLIC_PAYPAL_CLIENT_ID=your_paypal_client_id
@@ -151,15 +151,3 @@ Contributions are welcome! To contribute:
 3. Commit your changes (`git commit -m "Add feature"`).
 4. Push to the branch (`git push origin feature-name`).
 5. Open a **Pull Request**.
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-
-## 🎉 Acknowledgments
-
-Webly.io is built using **Next.js** and **Convex** to provide a modern, scalable web experience. Special thanks to the contributors of these technologies.
-
----
-
-⭐ **If you find this project helpful, consider giving it a star!** ⭐
