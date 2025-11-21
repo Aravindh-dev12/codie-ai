@@ -49,14 +49,14 @@ function ChatView() {
     if (!mounted) {
       // Return a neutral theme during SSR to avoid hydration mismatch
       return {
-        background: 'bg-gray-100',
+        background: 'bg-gray-200',
         border: 'border-gray-300',
         text: 'text-gray-800',
         textSecondary: 'text-gray-600',
-        messageUserBorder: 'border-blue-300',
+        messageUserBorder: 'border-blue-200',
         messageAIBorder: 'border-gray-300',
         inputBackground: 'bg-white',
-        codeBackground: 'bg-gray-200',
+        codeBackground: 'bg-gray-100',
         codeText: 'text-blue-600',
         scrollbarThumb: 'rgba(148,163,184,0.4)',
         placeholder: 'placeholder-gray-500'
@@ -73,8 +73,8 @@ function ChatView() {
       messageUserBorder: 'border-blue-500/30',
       messageAIBorder: 'border-gray-700/50',
       inputBackground: 'bg-black',
-      codeBackground: 'bg-gray-900',
-      codeText: 'text-blue-300',
+      codeBackground: 'bg-gray-700',
+      codeText: 'text-blue-200',
       scrollbarThumb: 'rgba(148,163,184,0.6)',
       placeholder: 'placeholder-gray-500'
     } : {
@@ -86,7 +86,7 @@ function ChatView() {
       messageAIBorder: 'border-gray-300',
       inputBackground: 'bg-white',
       codeBackground: 'bg-gray-100',
-      codeText: 'text-blue-600',
+      codeText: 'text-blue-400',
       scrollbarThumb: 'rgba(148,163,184,0.4)',
       placeholder: 'placeholder-gray-400'
     };
@@ -520,5 +520,6 @@ function ChatView() {
     </motion.div>
   );
 }
+
 
 export default ChatView;
